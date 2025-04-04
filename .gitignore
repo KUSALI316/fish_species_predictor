@@ -1,52 +1,46 @@
-# Prerequisites
-*.d
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Jupyter Notebooks
+.ipynb_checkpoints
 
-# Precompiled Headers
-*.gch
-*.pch
+# Flask
+instance/
+*.db
+*.sqlite3
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# TensorFlow
+tensorflow_model/
+model.h5
+*.tflite
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# IDEs
+.vscode/
+.idea/
+*.swp
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# MacOS
+.DS_Store
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Windows
+Thumbs.db
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Logs
+*.log
+
+# Dataset
+Dataset/
+
+# Configuration files
+config.yaml
+*.json
